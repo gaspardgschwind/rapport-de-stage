@@ -1,0 +1,149 @@
+body {
+  font-size: 0;
+  line-height: 0;
+}
+
+@font-face {
+    font-family: 'AvenirLTStdBook';
+    src: url('fonts/AvenirLTStdBook.eot');
+    src: url('fonts/AvenirLTStdBook.eot') format('embedded-opentype'),
+         url('fonts/AvenirLTStdBook.woff2') format('woff2'),
+         url('fonts/AvenirLTStdBook.woff') format('woff'),
+         url('fonts/AvenirLTStdBook.ttf') format('truetype'),
+         url('fonts/AvenirLTStdBook.svg#AvenirLTStdBook') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirLTStdBlack';
+    src: url('fonts/AvenirLTStdBlack.eot');
+    src: url('fonts/AvenirLTStdBlack.eot') format('embedded-opentype'),
+         url('fonts/AvenirLTStdBlack.woff2') format('woff2'),
+         url('fonts/AvenirLTStdBlack.woff') format('woff'),
+         url('fonts/AvenirLTStdBlack.ttf') format('truetype'),
+         url('fonts/AvenirLTStdBlack.svg#AvenirLTStdBlack') format('svg');
+}
+
+
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: AvenirLTStdBlack;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: AvenirLTStdBook;
+}
+
+div.colonne1{
+  vertical-align: top;
+  margin-right: 3%;
+  display: inline-block;
+  width: 48.5%;
+}
+
+div.colonne2{
+  vertical-align: top;
+  display: inline-block;
+  width: 48.5%;
+}
+
+div.bloc{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  vertical-align: top;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px #D8D8D8 solid;
+}
+
+img.image1{
+  width: 100%;
+}
+
+header{
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  background-color: #d8d8d8;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 54px;
+  font-family: AvenirLTStdBlack;
+}
+
+footer {
+  background-color: #f1f1f1;
+}
+
+div.blocfooter{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.footerimage {
+  text-align: center;
+}
+div.footerimage img {
+  display:inline-block;
+  padding-top: 60px
+}
+
+div.footercolonne1{
+    vertical-align: top;
+    margin-right: 3%;
+    display: inline-block;
+    width: 48.5%;
+    padding-bottom: 50px;
+    padding-top:40px;
+}
+
+div.footercolonne2{
+  vertical-align: top;
+  display: inline-block;
+  width: 48.5%;
+  padding-bottom: 50px;
+  padding-top: 93px;
+}
+
+div.logobeaubourg {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+div.logobeaubourg img {
+  display:inline-block;
+}
+/*
+footer{
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #d8d8d8;
+  font-family:AvenirLTStdBook;
+  padding-left: 10%;
+  padding-top: 153px;
+}
+
+footer.footercolonne1{
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #d8d8d8;
+  font-family:AvenirLTStdBook;
+  padding-left: 10%;
+  padding-top: 153px;
+}
+
+footer.footercolonne2{
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #d8d8d8;
+  font-family:AvenirLTStdBook;
+  padding-left: 60%;
+  padding-top: 153px;
+}
+*/
